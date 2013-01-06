@@ -1,4 +1,6 @@
 DemoApp::Application.routes.draw do
+  get "animals/show"
+
   resources :microposts
 
 
